@@ -17,7 +17,7 @@
               </p>
               <div class="btn-wrapper">
                 <a
-                  href="https://www.creative-tim.com/product/argon-design-system-angular?ref=adsa-index-header"
+                  (click)="scroll(target)"
                   class="btn btn-md btn-white btn-icon mb-3 mb-sm-0"
                 >
                   <span class="btn-inner--icon"
@@ -71,7 +71,7 @@
 
   <!-- start section -->
 
-  <section class="section section-lg pt-lg-0 marginton">
+  <section #target class="section section-lg pt-lg-0 marginton">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-12">
