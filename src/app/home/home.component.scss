@@ -34,6 +34,7 @@ hr {
 
 .marginton {
   margin-top: 50px;
+  margin-bottom: 0px;
 }
 .test-quote {
   margin: 0 auto;
@@ -41,6 +42,17 @@ hr {
 .hide {
   height: 1px;
   border: 0;
+}
+.centerfy {
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.call-to {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .max-imager {
   height: 200px;
