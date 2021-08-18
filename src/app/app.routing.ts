@@ -9,6 +9,7 @@ import { SignupComponent } from "./signup/signup.component";
 import { LandingComponent } from "./landing/landing.component";
 import { LoginComponent } from "./login/login.component";
 import { AshleychaseComponent } from "./ashleychase/ashleychase.component";
+import { AshleychasecommentComponent } from "./ashleychasecomment/ashleychasecomment.component";
 
 const routes: Routes = [
   { path: "home", component: HomeComponent },
@@ -17,6 +18,7 @@ const routes: Routes = [
   { path: "landing", component: LandingComponent },
   { path: "login", component: LoginComponent },
   { path: "ashley", component: AshleychaseComponent },
+  { path: "ashley-comment", component: AshleychasecommentComponent },
   { path: "", redirectTo: "home", pathMatch: "full" },
 ];
 

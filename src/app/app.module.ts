@@ -16,6 +16,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { HomeModule } from './home/home.module';
 import { LoginComponent } from './login/login.component';
 import { AshleychaseComponent } from './ashleychase/ashleychase.component';
+import { AshleychasecommentComponent } from './ashleychasecomment/ashleychasecomment.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { AshleychaseComponent } from './ashleychase/ashleychase.component';
     NavbarComponent,
     FooterComponent,
     LoginComponent,
-    AshleychaseComponent
+    AshleychaseComponent,
+    AshleychasecommentComponent
   ],
   imports: [
     BrowserModule,
