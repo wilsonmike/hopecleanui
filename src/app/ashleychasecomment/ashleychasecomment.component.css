@@ -11,4 +11,25 @@
 .img-contained {
   max-height: 500px;
   max-width: 500px;
+  display: contain;
+  margin: 0 auto;
+}
+.comment {
+  display: flex;
+  font-weight: bold;
+}
+
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+img {
+  z-index: 0;
+}
+
+.card-body {
+  z-index: 0;
 }
